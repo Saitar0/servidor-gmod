@@ -1,13 +1,23 @@
 "srcds_addons"
 {
-	"248302805"
+	"2206993805"
 	{
-		"name"		"DarkRP"
-		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\248302805"
+		"name"		"slib - Stromic's Library"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2206993805"
+	}
+	"2432188292"
+	{
+		"name"		"sAdmin - Content"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2432188292"
 	}
 	"2956782314"
 	{
 		"name"		"rp_downtown_tits_v2.5 (Map, Nodes & Navmesh)"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2956782314"
+	}
+	"248302805"
+	{
+		"name"		"DarkRP"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\248302805"
 	}
 }
