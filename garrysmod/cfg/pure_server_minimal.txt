@@ -1,0 +1,4 @@
+"pure_server_minimal"
+{
+	// Pure server minimal configuration
+}

@@ -1,0 +1,73 @@
+// ==============================================
+// Configuração do Servidor Garry's Mod
+// ==============================================
+// RENOMEIE PARA server.cfg E EDITE OS VALORES
+// NÃO COMMITE O ARQUIVO server.cfg COM SENHAS!
+// ==============================================
+
+// Informações do Servidor
+hostname "Meu Servidor GMOD [BR]"
+sv_password ""                    // Senha do servidor (vazio = sem senha)
+rcon_password "ALTERAR_SENHA"     // Senha RCON (ALTERE!)
+
+// Localização
+sv_region "3"                     // 0=US East, 1=US West, 2=South America, 3=Europe, 4=Asia, 5=Australia, 6=Middle East, 7=Africa
+sv_lan 0                          // 0=Internet, 1=LAN only
+sv_allow_lobby_connect_only 0     // 0=Permite conexão direta, 1=Apenas via lobby
+
+// Network Settings
+sv_maxrate 0                      // 0=Ilimitado (recomendado)
+sv_minrate 75000                  // Taxa mínima de transferência
+sv_maxupdaterate 66               // Taxa máxima de atualização
+sv_minupdaterate 10               // Taxa mínima de atualização
+sv_maxcmdrate 66
+sv_mincmdrate 10
+
+// Game Settings
+mp_friendlyfire 0                 // 0=Desabilitado, 1=Habilitado
+sbox_godmode 0                    // 0=Desabilitado, 1=Habilitado
+sbox_plpldamage 0                 // 0=Jogadores não se machucam, 1=Machucam
+sbox_noclip 1                     // 0=Noclip desabilitado, 1=Habilitado para admins
+sbox_maxprops 200                 // Máximo de props por jogador
+sbox_maxragdolls 5
+sbox_maxvehicles 4
+sbox_maxeffects 50
+sbox_maxdynamite 10
+sbox_maxlamps 10
+sbox_maxthrusters 30
+sbox_maxwheels 20
+sbox_maxhoverballs 20
+sbox_maxballoons 50
+sbox_maxnpcs 20
+sbox_maxsents 100
+
+// Server Performance
+sv_hibernate_think 1              // O servidor continua pensando quando vazio
+sv_forcepreload 1                 // Força preload de assets (melhora performance)
+
+// Logs
+log on                            // Ativa logs
+sv_logbans 1                      // Loga bans
+sv_logecho 1                      // Mostra logs no console
+sv_logfile 1                      // Salva logs em arquivo
+sv_log_onefile 0                  // 0=Múltiplos arquivos, 1=Um único arquivo
+
+// Voice
+sv_voiceenable 1                  // 0=Desabilita voz, 1=Habilita
+sv_alltalk 0                      // 0=Time only, 1=Global
+
+// Workshop Collection
+// Substitua pelo ID da sua coleção do Workshop
+// host_workshop_collection "123456789"
+
+// Workshop IDs individuais (opcional)
+// resource.AddWorkshopResource("123456789")
+
+// Download URL (FastDL) - Opcional
+// sv_downloadurl "http://seu-servidor.com/fastdl/"
+// sv_allowdownload 1
+// sv_allowupload 1
+
+// Executa configs adicionais
+exec banned_user.cfg
+exec banned_ip.cfg

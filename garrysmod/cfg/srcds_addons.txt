@@ -1,0 +1,13 @@
+"srcds_addons"
+{
+	"248302805"
+	{
+		"name"		"DarkRP"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\248302805"
+	}
+	"2956782314"
+	{
+		"name"		"rp_downtown_tits_v2.5 (Map, Nodes & Navmesh)"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2956782314"
+	}
+}

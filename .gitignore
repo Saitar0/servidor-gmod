@@ -1,0 +1,191 @@
+# ==============================================================================
+# .gitignore para Servidor Garry's Mod
+# ==============================================================================
+# Mantém: código Lua, configs, gamemodes, addons leves
+# Exclui: assets pesados (maps, materials, models, sounds, VPK, workshop)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# ASSETS PESADOS - NÃO VERSIONAR (usar Drive/Syncthing)
+# ------------------------------------------------------------------------------
+
+# VPK files (arquivos de conteúdo compactado do Source Engine)
+*.vpk
+
+# Maps (podem ser muito grandes)
+garrysmod/maps/*.bsp
+garrysmod/maps/*.nav
+garrysmod/maps/*.ain
+garrysmod/maps/graphs/
+garrysmod/download/maps/
+
+# Materials (texturas, imagens)
+garrysmod/materials/**
+!garrysmod/materials/.gitkeep
+# Exceções: apenas materials de código/HUD customizado
+!garrysmod/materials/vgui/
+!garrysmod/materials/gui/
+
+# Models (modelos 3D)
+garrysmod/models/**
+!garrysmod/models/.gitkeep
+
+# Sounds (arquivos de áudio)
+garrysmod/sound/**
+!garrysmod/sound/.gitkeep
+
+# Particles (efeitos de partículas)
+garrysmod/particles/**
+!garrysmod/particles/.gitkeep
+
+# Resources (arquivos de recursos diversos)
+garrysmod/resource/fonts/
+garrysmod/resource/flash/
+
+# Scenes (cenas do Source Filmmaker)
+garrysmod/scenes/**
+
+# Backgrounds (imagens de menu)
+garrysmod/backgrounds/**
+
+# Download lists
+garrysmod/downloadlists/
+
+# Content pesado do Source Engine
+sourceengine/
+content_*/
+hl2_*/
+
+# ------------------------------------------------------------------------------
+# CACHE E TEMPORÁRIOS
+# ------------------------------------------------------------------------------
+
+# Cache do jogo
+garrysmod/cache/
+garrysmod/download/
+garrysmod/downloads/
+cache/
+appcache/
+steam_cache/
+
+# Logs
+logs/
+*.log
+garrysmod/console.log
+
+# Dados de usuário
+userdata/
+*.dem
+*.bak
+
+# Temporários do sistema
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# ------------------------------------------------------------------------------
+# WORKSHOP E ADDONS
+# ------------------------------------------------------------------------------
+
+# TODOS os addons vão para o Git (incluindo models, materials, sounds, etc)
+# Apenas exclua manualmente se um addon for MUITO grande
+# Exemplo para excluir addons específicos:
+# garrysmod/addons/nome_do_addon_grande/
+
+# ------------------------------------------------------------------------------
+# CONFIGS E DADOS DO SERVIDOR (alguns devem ser ignorados)
+# ------------------------------------------------------------------------------
+
+# Configs sensíveis
+garrysmod/cfg/server.cfg
+garrysmod/cfg/autoexec.cfg
+config/config.vdf
+
+# Dados de jogadores e saves
+garrysmod/data/ulib/
+garrysmod/data/ulx/
+garrysmod/data/sv.db
+garrysmod/data/*.db
+garrysmod/data/*.sqlite
+garrysmod/settings/
+
+# GameState temporário
+garrysmod/GameState.txt
+
+# ------------------------------------------------------------------------------
+# BINÁRIOS E EXECUTÁVEIS
+# ------------------------------------------------------------------------------
+
+# Binários do Windows
+*.exe
+*.dll
+bin/
+garrysmod/bin/
+
+# Platform
+platform/
+
+# Depots
+depotcache/
+
+# ------------------------------------------------------------------------------
+# ARQUIVOS DE CONFIGURAÇÃO DO STEAM
+# ------------------------------------------------------------------------------
+
+steam_appid.txt
+*.manifest
+*.acf
+
+# ------------------------------------------------------------------------------
+# O QUE SERÁ VERSIONADO (explicitamente incluído)
+# ==============================================================================
+
+# Gamemodes (código Lua + assets)
+!garrysmod/gamemodes/
+
+# Addons (TUDO vai para o Git - lua, materials, models, sounds, etc)
+!garrysmod/addons/
+
+# Código Lua global
+!garrysmod/lua/
+
+# Configs de exemplo (renomeie para usar)
+!garrysmod/cfg/*.cfg.example
+!garrysmod/cfg/server.cfg.example
+
+# HTML (para menus customizados)
+!garrysmod/html/
+
+# Data essencial (configs de gamemode)
+!garrysmod/data/.gitkeep
+
+# Documentação e scripts
+!*.md
+!README.md
+!LICENSE
+
+# Scripts de inicialização
+!start.bat
+!start.sh
+
+# ------------------------------------------------------------------------------
+# IDEs E FERRAMENTAS DE DESENVOLVIMENTO
+# ------------------------------------------------------------------------------
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# JetBrains (PHPStorm, IntelliJ, etc)
+.idea/
+
+# Sublime Text
+*.sublime-*
+
+# ------------------------------------------------------------------------------
+# CONTROLE DE VERSÃO
+# ------------------------------------------------------------------------------
+
+.git/
+.gitattributes
