@@ -20,4 +20,9 @@
 		"name"		"DarkRP"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\248302805"
 	}
+	"761228248"
+	{
+		"name"		"Realistic Handcuffs Content"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\761228248"
+	}
 }
