@@ -25,4 +25,9 @@
 		"name"		"Realistic Handcuffs Content"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\761228248"
 	}
+	"1401011375"
+	{
+		"name"		"Mayor Voting/Elections System content"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1401011375\913548444687871392_legacy.bin"
+	}
 }
