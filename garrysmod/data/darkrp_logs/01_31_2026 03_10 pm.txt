@@ -1,0 +1,8 @@
+Sat Jan 31 15:10:07 2026	Saitaro_skins (STEAM_0:0:505916339) has joined the game
+Sat Jan 31 15:10:07 2026	Saitaro (STEAM_0:0:505916339) spawned
+Sat Jan 31 15:13:58 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_buyer_npc
+Sat Jan 31 15:14:06 2026	Saitaro (STEAM_0:0:505916339): !menu[
+Sat Jan 31 15:14:08 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Jan 31 15:14:19 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Jan 31 15:14:30 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_buyer_npc
+Sat Jan 31 15:25:50 2026	Saitaro (STEAM_0:0:505916339) disconnected

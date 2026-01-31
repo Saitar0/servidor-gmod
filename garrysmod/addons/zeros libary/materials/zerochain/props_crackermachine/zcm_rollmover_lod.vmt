@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_crackermachine/zcm_rollmover_lod"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}
