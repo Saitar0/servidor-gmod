@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_crackermachine/zcm_wrappaper_lod"
+
+	"$nocull"  1
+	
+	"$surfaceprop" "cardboard"
+	"$model" 1
+}

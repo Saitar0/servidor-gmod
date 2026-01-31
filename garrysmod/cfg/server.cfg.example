@@ -6,12 +6,12 @@
 // ==============================================
 
 // Informações do Servidor
-hostname "Meu Servidor GMOD [BR]"
+hostname "BlackoutRP [BR]"
 sv_password ""                    // Senha do servidor (vazio = sem senha)
-rcon_password "ALTERAR_SENHA"     // Senha RCON (ALTERE!)
+rcon_password "ALTERAR_SENHA"     // Senha RCON (ALTERE PARA COMMITAR!)
 
 // Localização
-sv_region "3"                     // 0=US East, 1=US West, 2=South America, 3=Europe, 4=Asia, 5=Australia, 6=Middle East, 7=Africa
+sv_region "2"                     // 0=US East, 1=US West, 2=South America, 3=Europe, 4=Asia, 5=Australia, 6=Middle East, 7=Africa
 sv_lan 0                          // 0=Internet, 1=LAN only
 sv_allow_lobby_connect_only 0     // 0=Permite conexão direta, 1=Apenas via lobby
 
