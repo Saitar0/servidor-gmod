@@ -1,9 +1,1 @@
-start "SRCDS" /B srcds.exe -game garrysmod -conlog -console -port 27015 ^
-+gamemode darkrp ^
-+map rp_downtown_tits_v25 ^
-+fps_max 0 ^
-+sv_lan 0 ^
-+maxplayers 16 ^
-+host_workshop_collection 3655899845
-+sv_setsteamaccount "BB5D2E074825084546C7210CCBFC93CE" ^
-+host_workshop_collection 3655899845
+start "SRCDS" /B srcds.exe -game garrysmod -conlog -port 27015 -console -conclearlog -condebug -tvdisable -maxplayers 16 +gamemode darkrp +r_hunkalloclightmaps 0 +map rp_downtown_tits_v25 -tickrate 33 +fps_max 33 +host_workshop_collection "3655899845" +sv_lan 1

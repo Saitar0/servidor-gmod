@@ -1,5 +1,0 @@
-Sat Jan 31 14:23:26 2026	Saitaro_skins (STEAM_0:0:505916339) has joined the game
-Sat Jan 31 14:23:26 2026	Saitaro (STEAM_0:0:505916339) spawned
-Sat Jan 31 14:24:00 2026	Saitaro (STEAM_0:0:505916339): /setmoney Saitaro 1000000
-Sat Jan 31 14:24:00 2026	Saitaro (STEAM_0:0:505916339) set Saitaro_skins's money to $1,000,000
-Sat Jan 31 14:24:45 2026	Saitaro (STEAM_0:0:505916339) disconnected

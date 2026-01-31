@@ -37,7 +37,7 @@ VOTING.Settings.VoteResultsSound = "ui/achievement_earned.wav" --Vote results so
 -- Mayor Voting Configuration Options
 --
 
-VOTING.MayorTeamName = "Mayor" --DarkRP mayor team name i.e. (name after AddExtraTeam)
+VOTING.MayorTeamName = "Prefeito" --DarkRP mayor team name i.e. (name after AddExtraTeam)
 VOTING.MaximumCandidates = 6 --Maximum candidates allowed in vote
 VOTING.MinimumCandidates = 2 --Minimum candidates needed to trigger vote
 VOTING.AboutToBeginTime = 60 --Time (in seconds) between vote triggered and started
