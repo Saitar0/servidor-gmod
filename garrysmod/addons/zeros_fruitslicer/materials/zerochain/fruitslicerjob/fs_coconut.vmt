@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	$blendTintByBaseAlpha 1
+    
+	//$blendTintColorOverBase 1
+	"$baseTexture"			"zerochain/fruitslicerjob/fs_coconut"
+	"$bumpMap"				"zerochain/fruitslicerjob/fs_coconut_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "flesh"
+	"$model" 1
+	
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$envmapfresnel" "1"
+	
+	
+	$phong 1
+
+        $phongexponent 25
+		$phongalbedotint 1
+        $phongboost 0.1
+        $phongtint "[1 1 1]"
+        $phongfresnelranges "[1 2 3]"
+
+		$rimlight               1
+		$rimlightexponent       1
+		$rimlightboost       1
+}

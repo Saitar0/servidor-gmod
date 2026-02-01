@@ -88,11 +88,7 @@ sAdmin.config["warns"] = { -- Warns settings.
 
 sAdmin.config["adverts"] = {
     {
-        msg = {Color(255,255,255), "You can donate to the server by using ", Color(0,83,160), "!donate", Color(255,255,255), "."}, -- Message with multicolor support!
-        time = "300" -- Every 5 minutes
-    },
-    {
-        msg = {Color(255,255,255), "There are currently ", Color(0,200,0), player.GetCount, Color(255,255,255), " player(s) on the server!"}, -- Message with multicolor support!
+        msg = {Color(255,255,255), "Há ", Color(0,200,0), player.GetCount, Color(255,255,255), " jogadores no momento!"}, -- Message with multicolor support!
         time = "1800", -- Every 30 minutes
         offset = "200" -- Offset the time
     },

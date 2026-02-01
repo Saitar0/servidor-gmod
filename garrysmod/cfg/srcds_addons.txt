@@ -40,4 +40,9 @@
 		"name"		"Zeros Lua Libary"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2532060111"
 	}
+	"1272277353"
+	{
+		"name"		"Zeros FruitSlicer - Contentpack"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1272277353"
+	}
 }

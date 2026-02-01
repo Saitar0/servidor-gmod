@@ -1,0 +1,10 @@
+zfs_ents = {}
+zfs_ents["zfs_melon"] = true
+zfs_ents["zfs_banana"] = true
+zfs_ents["zfs_coconut"] = true
+zfs_ents["zfs_pomegranate"] = true
+zfs_ents["zfs_strawberry"] = true
+zfs_ents["zfs_kiwi"] = true
+zfs_ents["zfs_lemon"] = true
+zfs_ents["zfs_orange"] = true
+zfs_ents["zfs_apple"] = true

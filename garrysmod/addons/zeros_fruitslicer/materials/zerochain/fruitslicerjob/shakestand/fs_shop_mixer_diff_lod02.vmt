@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	$blendTintByBaseAlpha 1
+	"$baseTexture"			"zerochain/fruitslicerjob/shakestand/fs_shop_mixer_diff_lod02"
+	"$surfaceprop" "metal"
+	"$model" 1
+}

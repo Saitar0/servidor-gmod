@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/fruitslicerjob/fruitcup/fruitcup_plastic_diff_lod02"
+
+	"$translucent"			1
+	
+	"$surfaceprop" "glass"
+	"$model" 1
+	
+}

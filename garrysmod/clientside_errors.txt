@@ -1,0 +1,9 @@
+Saitaro_skins|2|STEAM_0:0:505916339
+
+[zeros_fruitslicer] addons/zeros_fruitslicer/lua/zfruitslicer/sh/zfs_vfx.lua:87: bad argument #3 to 'ParticleEffect' (Angle expected, got nil)
+  1. ParticleEffect - [C]:-1
+   2. func - addons/zeros_fruitslicer/lua/zfruitslicer/sh/zfs_vfx.lua:87
+    3. unknown - lua/includes/extensions/net.lua:34
+
+
+
