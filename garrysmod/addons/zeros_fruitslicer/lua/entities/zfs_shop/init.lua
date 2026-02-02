@@ -256,9 +256,13 @@ function ENT:SpawnMixer()
 
 	if (phys:IsValid()) then
 		phys:Wake()
+		phys:EnableMotion(false)
 	end
 
+	-- Prevent Physgun/Toolgun interaction and freeze movement (visual only, parent keeps it attached)
 	ent:SetParent(self, self:LookupAttachment("mixer_floor"))
+	ent.PhysgunPickup = function() return false end
+	ent.CanTool = function() return false end
 	self.Mixer = ent
 	self:DeleteOnRemove(ent)
 end
