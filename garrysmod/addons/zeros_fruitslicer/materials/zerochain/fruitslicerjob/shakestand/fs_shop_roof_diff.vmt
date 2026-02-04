@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/fruitslicerjob/shakestand/fs_shop_roof_diff"
+	"$bumpMap"				"zerochain/fruitslicerjob/shakestand/fs_shop_roof_nrm"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+	$halflambert 1
+	$nodecal "1"
+	
+	$phong 1
+	$phongexponenttexture "zerochain/fruitslicerjob/shakestand/fs_shop_roof_exp"	
+	$phongfresnelranges "[1 2 3]"
+	$phongalbedotint 1
+	$phongboost 10
+	$phongalbedoboost 100
+	
+	$envmap env_cubemap
+	"$normalmapalphaenvmapmask" "1"	
+	$envmaptint "[0.70 0.70 0.70]"
+	$envmapfresnel 1
+	//$envmaplightscale 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	
+	$rimlight               1
+	$rimlightexponent      15
+	$rimlightboost         1
+	$rimmask 1
+}

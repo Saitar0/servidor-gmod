@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	//"$color2"				"[1 0]"
+	"$baseTexture"			"zerochain/fruitslicerjob/fs_shop"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alphatest"			0
+	
+}
+// Created With MESA 2.1 by www.puppet-master.net

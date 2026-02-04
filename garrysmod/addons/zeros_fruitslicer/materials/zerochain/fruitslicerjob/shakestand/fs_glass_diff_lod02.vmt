@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/fruitslicerjob/shakestand/fs_glass_diff_lod02"
+
+	"$translucent"			1
+
+}

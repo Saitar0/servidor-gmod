@@ -1,0 +1,11 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Spawnable = false
+ENT.RenderGroup = RENDERGROUP_BOTH
+ENT.PrintName = "Topping"
+ENT.Author = "ClemensProduction aka Zerochain"
+ENT.Information = "info"
+ENT.Category = "Zeros FruitSlicer"
+ENT.Model = "models/zerochain/fruitslicerjob/fs_melon.mdl"
+ENT.DisableDuplicator = false
