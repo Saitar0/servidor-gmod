@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	//"$color2"				"[0.83 0.24 0.14]"
+	$blendTintByBaseAlpha 1
+	"$baseTexture"			"zerochain/fruitslicerjob/fruitcup/fruitcup_fill"
+	"$selfIllum"			0
+	"$translucent"			0
+
+}

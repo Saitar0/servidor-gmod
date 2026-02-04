@@ -1,0 +1,23 @@
+"SpriteCard"
+{
+	"$basetexture" "particles/fruitslicer/zfs_smoke02"
+
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+	
+	"$nofog" "1"
+	"$Additive" "1"
+	"$no_fullbright" 1
+	"srgb?$alpha" "0.5"
+
+		
+	$overbrightfactor 0.5
+	"!srgb?$overbrightfactor" "0.6"
+	
+	$depthblend 1
+	$depthblendscale 2
+	$nocull 1
+
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/fruitslicerjob/shakestand/fs_shop_main_india_diff_lod02"
+	"$surfaceprop" "metal"
+	"$model" 1
+}
