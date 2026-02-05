@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_methlab/storage/zmlab2_storage_diff"
+	"$bumpMap"				"zerochain/props_methlab/storage/zmlab2_storage_nrm"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$envmap env_cubemap
+	$normalmapalphaenvmapmask "1"	
+	"$envmaptint" "[0.1 0.1 0.1]"
+	$envmapfresnel "0.1"
+	$phong 1
+	$phongexponent 1
+	$phongfresnelranges "[1 1 1]"
+	$phongtint "[1 1 1]"
+	$phongboost 2
+
+	$rimlight               1
+	$rimlightexponent      25
+	$rimlightboost         0.1
+}

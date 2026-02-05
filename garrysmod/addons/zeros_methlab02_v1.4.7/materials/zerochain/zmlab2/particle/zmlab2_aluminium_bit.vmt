@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zerochain/zmlab2/particle/zmlab2_aluminium_bit"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}
