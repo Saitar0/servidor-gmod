@@ -1,0 +1,4 @@
+Wed Feb  4 20:32:10 2026	Saitaro da negev (STEAM_0:0:505916339) has joined the game
+Wed Feb  4 20:32:10 2026	Saitaro (STEAM_0:0:505916339) spawned
+Wed Feb  4 20:32:28 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zfs_shop
+Wed Feb  4 20:33:07 2026	Saitaro (STEAM_0:0:505916339) disconnected

@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_crackermachine/zcm_paperroller_diff"
+	"$bumpMap"				"zerochain/props_crackermachine/zcm_paperroller_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+	
+	$phong 1
+	$phongboost 8
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 4
+	$phongalbedotint 1	
+	
+	$detail detail\metal_detail_01
+	$detailscale 10
+	$detailblendfactor 0.7
+	$detailblendmode 0
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	$envmaptint "[0.25 0.25 0.25]"
+
+	$rimlight               1
+		$rimlightexponent      25
+		$rimlightboost         1
+}

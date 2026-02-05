@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_crackermachine/zcm_grate_lod"
+
+	"$alphatest"			1
+    "$alphatestreference" .5
+    "$allowalphatocoverage" 1
+
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$nocull" 1
+}
