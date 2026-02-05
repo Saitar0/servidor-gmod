@@ -45,4 +45,18 @@
 		"name"		"Zeros FruitSlicer - Contentpack"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1272277353"
 	}
+	"1693683733"
+	{
+		"name"		"Zero´s Lawnmower Man - Contentpack"
+	}
+	"554576195"
+	{
+		"name"		"BLogs Content - Essential Gameplay"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\554576195\582449529833862063_legacy.bin"
+	}
+	"1590239460"
+	{
+		"name"		"rp_downtown_tits_v2"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1590239460\957476389757870980_legacy.bin"
+	}
 }

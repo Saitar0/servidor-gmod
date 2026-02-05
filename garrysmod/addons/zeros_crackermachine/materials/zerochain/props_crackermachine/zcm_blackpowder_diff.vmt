@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_crackermachine/zcm_blackpowder_diff"
+	
+	"$bumpMap"				"zerochain/props_crackermachine/zcm_blackpowder_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 0.5
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 5
+	$phongalbedotint 1	
+}
