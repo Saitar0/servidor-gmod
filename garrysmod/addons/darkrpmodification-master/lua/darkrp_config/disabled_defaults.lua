@@ -28,7 +28,7 @@ DarkRP.disabledDefaults["modules"] = {
     ["events"]           = false,
     ["fpp"]              = false,
     ["f1menu"]           = true,
-    ["f4menu"]           = false,
+    ["f4menu"]           = true,
     ["hitmenu"]          = false,
     ["hud"]              = false,
     ["hungermod"]        = true,
@@ -63,27 +63,27 @@ DarkRP.disabledDefaults["jobs"] = {
 Shipments and pistols
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["shipments"] = {
-    ["AK47"]         = false,
-    ["Desert eagle"] = false,
-    ["Fiveseven"]    = false,
-    ["Glock"]        = false,
-    ["M4"]           = false,
-    ["Mac 10"]       = false,
-    ["MP5"]          = false,
-    ["P228"]         = false,
-    ["Pump shotgun"] = false,
-    ["Sniper rifle"] = false,
+    ["AK47"]         = true,
+    ["Desert eagle"] = true,
+    ["Fiveseven"]    = true,
+    ["Glock"]        = true,
+    ["M4"]           = true,
+    ["Mac 10"]       = true,
+    ["MP5"]          = true,
+    ["P228"]         = true,
+    ["Pump shotgun"] = true,
+    ["Sniper rifle"] = true,
 }
 
 --[[---------------------------------------------------------------------------
 Entities
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["entities"] = {
-    ["Drug lab"]      = false,
-    ["Gun lab"]       = false,
-    ["Money printer"] = false,
-    ["Microwave"]     = false, --Hungermod only
-    ["Tip Jar"]       = false,
+    ["Drug lab"]      = true,
+    ["Gun lab"]       = true,
+    ["Money printer"] = true,
+    ["Microwave"]     = true, --Hungermod only
+    ["Tip Jar"]       = true,
 }
 
 --[[---------------------------------------------------------------------------
@@ -117,8 +117,8 @@ DarkRP.disabledDefaults["food"] = {
 Door groups
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["doorgroups"] = {
-    ["Cops and Mayor only"] = false,
-    ["Gundealer only"]      = false,
+    ["Cops and Mayor only"] = true,
+    ["Gundealer only"]      = true,
 }
 
 
@@ -126,17 +126,17 @@ DarkRP.disabledDefaults["doorgroups"] = {
 Ammo packets
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["ammo"] = {
-    ["Pistol ammo"]  = false,
-    ["Rifle ammo"]   = false,
-    ["Shotgun ammo"] = false,
+    ["Pistol ammo"]  = true,
+    ["Rifle ammo"]   = true,
+    ["Shotgun ammo"] = true,
 }
 
 --[[---------------------------------------------------------------------------
 Agendas
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["agendas"] = {
-    ["Gangster's agenda"] = false,
-    ["Police agenda"] = false,
+    ["Gangster's agenda"] = true,
+    ["Police agenda"] = true,
 }
 
 --[[---------------------------------------------------------------------------
