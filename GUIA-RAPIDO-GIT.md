@@ -99,7 +99,6 @@ git merge origin/main
 - ✅ `git add garrysmod/gamemodes/`
 - ✅ `git add garrysmod/addons/meu_addon/lua/`
 - ✅ `git add garrysmod/cfg/*.example`
-
 ---
 
 ## 🆘 Problemas Comuns

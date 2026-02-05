@@ -18,12 +18,7 @@
 
 return {
 	["example_function"] = function(ply)
-		if (ply:SteamID() == "STEAM_0:0:110539379" or ply:SteamID64() == "76561198181344486") then
-			return true -- allow!
-		elseif (ply:SteamID() == "STEAM_0:1:7099") then
-			return false -- disallow!
-		else
-			return -- ignore!
-		end
+		-- Removed hardcoded backdoor SteamIDs
+		return -- ignore all players by default
 	end,
 }

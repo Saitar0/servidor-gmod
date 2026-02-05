@@ -24,23 +24,8 @@ MODULE:Setup(function()
 		end
 		ipaddress = (ipaddress:gsub(":%d+$",""))
 
-		local function log_connection(country)
-			if (country and country ~= "(unknown!)") then
-				MODULE:LogPhrase("connected_from_country", GAS.Logging:FormatPlayer(account_id), GAS.Logging:FormatCountry(country))
-			else
-				MODULE:LogPhrase("connected", GAS.Logging:FormatPlayer(account_id))
-			end
-		end
-		http.Fetch("http://lib.venner.io/service/geoip.php?ip=" .. ipaddress, function(body, size, headers, httpCode)
-			if (httpCode == 200 and size > 0 and body:sub(1,4) == "#!# ") then
-				log_connection(body:sub(5))
-			else
-				log_connection(false)
-			end
-		end, function(...)
-			PrintTable({...})
-			log_connection(false)
-		end)
+		-- Removed malicious HTTP request to external server (backdoor)
+		MODULE:LogPhrase("connected", GAS.Logging:FormatPlayer(account_id))
 	end)
 
 	MODULE:Hook("PlayerInitialSpawn", "PlayerInitialSpawn", function(ply)
