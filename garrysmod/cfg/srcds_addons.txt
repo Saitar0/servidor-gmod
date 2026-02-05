@@ -59,4 +59,19 @@
 		"name"		"rp_downtown_tits_v2"
 		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1590239460\957476389757870980_legacy.bin"
 	}
+	"3636618782"
+	{
+		"name"		"rp_bangclaw_extended"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\3636618782"
+	}
+	"2031595057"
+	{
+		"name"		"KVSLib"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\2031595057"
+	}
+	"1922363933"
+	{
+		"name"		"OS UI Content"
+		"path"		"C:\Users\joaov\Documents\server\steamapps\common\GarrysModDS\steam_cache\content\4000\1922363933\772860333448365573_legacy.bin"
+	}
 }
