@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_trashman/trashcollector/ztm_trashgun_backpack_lod01"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}

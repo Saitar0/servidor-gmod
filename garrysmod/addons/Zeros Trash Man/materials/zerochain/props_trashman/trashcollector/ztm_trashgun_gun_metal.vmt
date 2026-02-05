@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_trashman/trashcollector/ztm_trashgun_gun_diff"
+
+	"$bumpMap"				"zerochain/props_trashman/trashcollector/ztm_trashgun_gun_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 15
+
+	$phongfresnelranges "[4 8 16]"
+	$phongexponent 6
+	$phongalbedotint 1	
+	
+	$detail detail\metal_detail_01
+	$detailscale 10
+	$detailblendfactor 0.3
+	$detailblendmode 0
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[4 8 16]"
+	$envmaptint "[0.1 0.1 0.1]"
+
+	$rimlight               1
+	$rimlightexponent      25
+	$rimlightboost         1
+}

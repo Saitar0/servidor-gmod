@@ -1,0 +1,53 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_trashman/ztm_dirtwater_diff"
+
+	"$bumpMap"				"zerochain/props_trashman/ztm_dirtwater_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.780 0.450 0.301]" 
+	"$envmapfresnel" "1"
+	
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapFresnelMinMaxExp  "[1 1 1]"
+	
+	"$translucent" "1"
+	
+	$phong 1
+
+        $phongexponent 15
+        $phongboost 0.1
+        $phongtint "[0.780 0.450 0.301]" 
+        $phongfresnelranges "[1 1 1]"
+	
+		$rimlight               1
+		$rimlightexponent       15
+		$rimlightboost         15
+		
+		
+		
+		
+		 "Proxies"
+        {
+                "TextureScroll"
+                {
+                        "texturescrollvar" "$baseTextureTransform"
+                        "texturescrollrate" 1
+                        "texturescrollangle" 90
+                }
+				
+				"TextureScroll"
+                {
+                        "texturescrollvar" "$bumpMapTransform"
+                        "texturescrollrate" 1
+                        "texturescrollangle" 90
+                }
+        }	
+}	
+
