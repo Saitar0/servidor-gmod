@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_trashman/recycleblock/ztm_recycledblock_aluminium_diff"
+
+	"$bumpMap"				"zerochain/props_trashman/recycleblock/ztm_recycledblock_aluminium_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 15
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 7
+	$phongalbedotint 1	
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	$envmaptint "[0.025 0.025 0.025]"
+	
+	$rimlight               1
+	$rimlightexponent      15
+	$rimlightboost         0.1		
+}

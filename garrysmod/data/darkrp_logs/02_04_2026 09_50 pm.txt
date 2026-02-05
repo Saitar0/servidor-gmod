@@ -1,0 +1,15 @@
+Wed Feb  4 21:50:29 2026	Saitaro da negev (STEAM_0:0:505916339) has joined the game
+Wed Feb  4 21:50:29 2026	Saitaro (STEAM_0:0:505916339) spawned
+Wed Feb  4 21:52:14 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_paperroll
+Wed Feb  4 21:52:17 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_blackpowder
+Wed Feb  4 21:52:19 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_blackpowder
+Wed Feb  4 21:52:52 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:52:52 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:52:53 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:52:53 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:53:01 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:53:01 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:53:02 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:53:02 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_firecracker
+Wed Feb  4 21:53:15 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zcm_buyer_npc
+Wed Feb  4 21:53:28 2026	Saitaro (STEAM_0:0:505916339) disconnected

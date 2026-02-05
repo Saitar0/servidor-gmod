@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_trashman/trash/ztm_trash_diff_lod01"
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}

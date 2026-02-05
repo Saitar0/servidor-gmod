@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_trashman/recycler/ztm_recycler_grate_lod01"
+
+	"$translucent"			1
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}
