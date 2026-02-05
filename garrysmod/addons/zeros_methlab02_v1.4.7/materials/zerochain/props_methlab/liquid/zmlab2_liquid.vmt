@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_methlab/meth/zmlab2_meth_liquid_diff"
+	//"$color2" "[0.784 0.847 0.541]"
+	
+	"$surfaceprop" "slime"
+	"$model" 1
+
+	"$bumpmap" "zerochain/props_methlab/liquid/zmlab2_liquid"
+	"$normalmapalphaenvmapmask" "1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30
+		}
+	}
+	
+	$envmap env_cubemap
+	"$envmaptint" "[0.01 0.01 0.01]"
+	$envmapfresnel "1"
+	
+	$phong 1
+	$phongexponent 5
+	$phongfresnelranges "[1 1 1]"
+	$phongtint "[0.784 0.847 0.541]"
+	$phongboost 1
+
+	$rimlight               1
+	$rimlightexponent      25
+	$rimlightboost         0.1
+	
+}

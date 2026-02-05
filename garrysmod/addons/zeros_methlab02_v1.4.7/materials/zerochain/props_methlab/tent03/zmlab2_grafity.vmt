@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_methlab/tent03/zmlab2_grafity"
+	"$selfIllum"			0
+	"$translucent"			1
+	//"$alphatest"			1
+}

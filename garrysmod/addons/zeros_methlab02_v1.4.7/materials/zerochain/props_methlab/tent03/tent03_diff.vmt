@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_methlab/tent03/tent03_diff"
+	"$bumpmap"  			"zerochain/props_methlab/tent03/tent03_nrm"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$halflambert" 1
+
+	$envmap env_cubemap
+	"$normalmapalphaenvmapmask" "1"	
+	"$envmaptint" "[0.01 0.01 0.01]"
+	$envmapfresnel "1"
+	
+	$phong 1
+	$phongexponent 5
+	$phongfresnelranges "[1 1 1]"
+	$phongtint "[1 1 1]"
+	$phongboost 1
+
+	$rimlight               1
+	$rimlightexponent      25
+	$rimlightboost         0.1
+	
+	
+	// Emissive Scroll Pass
+	$emissiveBlendEnabled			"1"
+	$emissiveBlendTexture			"zerochain/props_methlab/tent/null"
+	$emissiveBlendBaseTexture		"zerochain/props_methlab/tent03/tent03_em"
+	$emissiveBlendFlowTexture		"zerochain/props_methlab/tent/null"
+	$emissiveBlendTint				"[0.6 0.6 1]"
+	$emissiveBlendStrength			"1"
+	$emissiveBlendScrollVector		"[0 0]"
+
+}
