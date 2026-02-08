@@ -1,0 +1,48 @@
+"Refract"
+{
+	"$refractamount" "0.01"
+	
+	"$bluramount" "1"
+	"$ignorez" "1"
+
+	"$scale" "[1 1]"
+
+	"$normalmap"			"zerochain/zblood/wounds/zbl_wound_braincells_nrm"
+	
+	
+	"$translate" "[0 0]"
+    "$center" "[0.5 0.5]"
+	
+	"$def_scale" "[1 1]"
+	
+	"$angle" "0"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+            "sineperiod" 5
+            "sinemin" 0.0001
+			"sinemax" 0.02
+			"timeoffset" 0.1
+            "resultVar" "$refractamount"
+		}
+	
+		"LinearRamp"
+		{
+            "rate" 150
+            "initialValue" 0.0
+            "resultVar" "$angle"
+		}
+
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$bumptransform"
+		}		
+	}
+}

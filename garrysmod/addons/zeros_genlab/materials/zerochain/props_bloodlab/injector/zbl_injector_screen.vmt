@@ -1,0 +1,5 @@
+"MonitorScreen"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_bloodlab/injector/zbl_injector_screen"
+}

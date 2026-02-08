@@ -1,0 +1,58 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"			"zerochain/zblood/wounds/zbl_wound_rhizome_diff"
+	"$bumpMap"				"zerochain/zblood/wounds/zbl_wound_rhizome_nrm"
+	
+	"$surfaceprop" "watermelon"
+	"$model" 1
+	$halflambert 1
+	
+	$phong 1	
+	$phongexponent 15
+	$phongboost  0.5
+	$phongfresnelranges "[1 1 1]"
+
+	
+	$envmap env_cubemap
+	"$normalmapalphaenvmapmask" "1"	
+	$envmaptint "[1 1 1]"
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 1 1]"
+	
+	$rimlight               1
+	$rimlightexponent      15
+	$rimlightboost         0.1
+	
+
+	"$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"	
+	"$def_scale" "[1 1]"
+	"$angle" "0"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+            "rate" 0.05
+            "initialValue" 0.0
+            "resultVar" "$translate[1]"
+		}
+		
+				"LinearRamp"
+		{
+            "rate" 0.05
+            "initialValue" 0.0
+            "resultVar" "$translate[2]"
+		}
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+}

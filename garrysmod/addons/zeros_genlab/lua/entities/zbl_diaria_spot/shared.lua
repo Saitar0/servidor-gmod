@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/props_phx/construct/metal_dome360.mdl"
+ENT.Spawnable = false
+ENT.AdminSpawnable = false
+ENT.PrintName = "Diaria Spot"
+ENT.Category = "Zeros GenLab"
+ENT.RenderGroup = RENDERGROUP_BOTH

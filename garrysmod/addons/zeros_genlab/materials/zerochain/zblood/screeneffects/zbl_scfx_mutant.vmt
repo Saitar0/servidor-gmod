@@ -1,0 +1,51 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"zerochain/zblood/wounds/zbl_wound_mutant_diff"
+
+	"$ignorez" "1"
+
+    "$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"
+	
+	"$angle" "0"
+	
+	"$def_scale" "[0.5 0.5]"
+	
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+            "rate" 0.1
+            "initialValue" 0.0
+            "resultVar" "$translate[0]"
+		}
+	
+		"LinearRamp"
+		{
+            "rate" 0.1
+            "initialValue" 0.0
+            "resultVar" "$translate[1]"
+		}
+		
+		"Sine"
+		{
+            "sineperiod" 5
+            "sinemin" 0.1
+			"sinemax" 0.2
+			"timeoffset" 0
+            "resultVar" "$alpha"
+		}
+
+
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+	
+}

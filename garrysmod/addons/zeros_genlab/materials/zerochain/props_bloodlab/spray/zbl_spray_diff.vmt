@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_bloodlab/spray/zbl_spray_diff"
+
+	"$bumpMap"				"zerochain/props_bloodlab/spray/zbl_spray_nrm"
+
+	"$surfaceprop" "plastic"
+	"$model" 1
+	$halflambert 1
+	
+	$phong 1
+	$phongexponent 5
+	$phongfresnelranges "[1 2 3]"
+
+	$phongboost 2
+	
+	$envmap env_cubemap
+	"$normalmapalphaenvmapmask" "1"	
+	$envmaptint "[1 1 1]"
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	
+	$rimlight               1
+	$rimlightexponent      15
+	$rimlightboost         1
+}

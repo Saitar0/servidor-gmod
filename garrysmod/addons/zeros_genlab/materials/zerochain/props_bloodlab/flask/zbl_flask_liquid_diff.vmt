@@ -1,0 +1,76 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_bloodlab/flask/zbl_flask_liquid_diff"
+	"$bumpMap"				"zerochain/props_bloodlab/flask/zbl_flask_liquid_nrm"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$halflambert" 1
+
+	$envmap env_cubemap
+	"$normalmapalphaenvmapmask" "1"	
+	$envmaptint "[0.1 0.1 0.1]"
+	$envmapfresnel 1
+	
+
+	$phong 1
+	$phongexponenttexture "zerochain/props_bloodlab/flask/zbl_flask_liquid_exp"	
+	$phongfresnelranges "[1 2 3]"
+	$phongalbedotint 1
+	$phongboost 2
+	
+	$rimlight               1
+	$rimlightexponent      1
+	$rimlightboost         1
+	$rimmask 1	
+	
+	$translucent 1
+	
+	"$translate" "[0 0]"
+    "$center" "[0.5 0.5]"	
+	"$def_scale" "[1 1]"
+	"$angle" "0"
+	
+	
+	$detail "zerochain\zblood\misc\zbl_bubbles"
+	$detailscale 1.5
+	$detailblendmode 2
+	$detailblendfactor 1
+	
+	"Proxies"
+	{
+
+		"Sine"
+		{
+            "sineperiod" 15
+            "sinemin" 1
+			"sinemax" 1.1
+			"timeoffset" 0
+            "resultVar" "$def_scale"
+		}
+		
+		"LinearRamp"
+		{
+            "rate" 0.05
+            "initialValue" 0
+            "resultVar" "$translate[1]"
+		}
+		
+		"LinearRamp"
+		{
+            "rate" 0.05
+            "initialValue" 0.0
+            "resultVar" "$translate[0]"
+		}
+		
+  
+		"TextureTransform"
+		{
+			"centervar" "$center"
+			"scalevar"  "$def_scale"
+			"rotatevar" "$angle"
+            "translatevar" "$translate"
+            "resultvar" "$detailtexturetransform"
+		}
+	}	
+}
