@@ -1,0 +1,62 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"zerochain/zblood/wounds/zbl_wound_braincells_diff"
+
+	"$ignorez" "1"
+
+    "$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"
+	
+	"$angle" "0"
+	
+	"$def_scale" "[0.75 0.75]"
+	
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+            "sineperiod" 0.1
+            "sinemin" 0.7
+			"sinemax" 1
+			"timeoffset" 0.1
+            "resultVar" "$def_scale[0]"
+		}
+		
+		"Sine"
+		{
+            "sineperiod" 0.1
+            "sinemin" 0.7
+			"sinemax" 1
+			"timeoffset" 0.1
+            "resultVar" "$def_scale[1]"
+		}
+		
+		"Sine"
+		{
+            "sineperiod" 5
+            "sinemin" 0.01
+			"sinemax" 0.1
+			"timeoffset" 0.1
+            "resultVar" "$alpha"
+		}
+
+		"LinearRamp"
+		{
+            "rate" 50
+            "initialValue" 0.0
+            "resultVar" "$angle"
+		}
+
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+	
+}

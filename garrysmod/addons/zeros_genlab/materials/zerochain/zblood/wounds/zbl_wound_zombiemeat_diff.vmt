@@ -1,0 +1,11 @@
+patch
+{
+	include "materials/zerochain/zblood/wounds/zbl_wound.vmt"
+	insert
+	{
+		"$baseTexture"			"zerochain/zblood/wounds/zbl_wound_zombiemeat_diff"
+		"$bumpmap"				"zerochain/zblood/wounds/zbl_wound_zombiemeat_nrm"
+		$phongtint "[1 0.3 0.3]"
+		$phongboost  0.25
+	}
+}

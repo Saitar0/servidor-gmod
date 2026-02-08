@@ -1,0 +1,8 @@
+patch
+{
+	include "materials/zerochain/props_bloodlab/flask/zbl_flask_liquid_diff.vmt"
+	insert
+	{
+		"$baseTexture"			"zerochain/props_bloodlab/flask/zbl_flask_liquid_cure_diff"
+	}
+}

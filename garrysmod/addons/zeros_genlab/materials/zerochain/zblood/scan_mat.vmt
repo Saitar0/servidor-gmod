@@ -1,0 +1,41 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zerochain/zblood/scan_mat"
+	"$additive" 1
+
+	"$translate" "[0.0 0.0]"
+    "$center" "[0.5 0.5]"	
+	"$def_scale" "[1 1]"
+	"$angle" "0"
+	
+	
+	
+	"Proxies"
+	{
+
+		"Sine"
+		{
+            "sineperiod" 0.5
+            "sinemin" 0.4
+			"sinemax" 0.5
+			"timeoffset" 0
+            "resultVar" "$alpha"
+		}
+
+		"LinearRamp"
+		{
+            "rate" 0.1
+            "initialValue" 0.0
+            "resultVar" "$translate[1]"
+		}
+		
+        "TextureTransform"
+		{
+            "translateVar" "$translate"
+			"scaleVar"  "$def_scale"
+            "rotateVar" "$angle"
+            "centerVar" "$center"
+            "resultVar" "$basetexturetransform"
+		}
+	}
+}

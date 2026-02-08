@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_bloodlab/virusknot/zbl_virusknot_diff"
+
+	"$surfaceprop" "watermelon"
+	"$model" 1
+	$halflambert 1
+}

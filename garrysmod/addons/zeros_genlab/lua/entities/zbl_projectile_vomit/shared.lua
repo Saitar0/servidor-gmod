@@ -1,0 +1,9 @@
+ENT.Type = "anim"
+ENT.Base = "base_anim"
+ENT.AutomaticFrameAdvance = true
+ENT.Model = "models/props_junk/PopCan01a.mdl"
+ENT.Spawnable = false
+ENT.AdminSpawnable = false
+ENT.PrintName = "Vomit Projectile"
+ENT.Category = "Zeros GenLab"
+ENT.RenderGroup = RENDERGROUP_BOTH

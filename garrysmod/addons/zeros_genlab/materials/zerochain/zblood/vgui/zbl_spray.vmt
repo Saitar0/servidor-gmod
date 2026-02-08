@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+ "$basetexture" "zerochain/zblood/vgui/zbl_spray"
+ "$vertexcolor" 1
+ "$vertexalpha" 1
+ "$translucent" 1
+}

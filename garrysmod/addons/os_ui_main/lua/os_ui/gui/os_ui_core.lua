@@ -350,25 +350,25 @@
         if door:getKeysTitle() then
             title = door:getKeysTitle()
         else
-            title = "Собственность"
+            title = "Propriedade"
         end
 
         if not owned then
             -- If the door ownership is allowed
             if not IsDoorBlocked( door ) then 
-                sub_header = "Продаётся"
-                footer = "Нажмите F2 чтобы купить"
+                sub_header = "À venda"
+                footer = "Pressione F2 para comprar"
             end
         else
             local owner = GetDoorOwner( door ) -- Attempt to get user who owns door.
-            sub_header = IsValid( owner ) and owner:Nick() or "Неизвестно"
-            footer = door_residents .. ( door_residents == 1 and " Владелец" or " Владельцы" )
+            sub_header = IsValid( owner ) and owner:Nick() or "Desconhecido"
+            footer = door_residents .. ( door_residents == 1 and " Proprietário" or " Proprietários" )
         end
 
         if IsDoorBlocked( door ) then
             -- If door ownership is not allowed.
-            title = "Дверь недоступна"
-            sub_header = "Не продаётся"
+            title = "Porta indisponível"
+            sub_header = "Não à venda"
         end
 
         size = Vector( math.abs( size.x ), math.abs( size.y ), math.abs( size.z ) )

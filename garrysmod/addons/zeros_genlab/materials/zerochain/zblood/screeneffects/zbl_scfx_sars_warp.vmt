@@ -1,0 +1,31 @@
+"Refract"
+{
+	"$refractamount" "0.01"
+	
+	"$bluramount" "5"
+	"$ignorez" "1"
+
+	"$scale" "[1 1]"
+
+	"$normalmap"			"zerochain/zblood/wounds/zbl_wound_inflorescence_nrm"
+	
+	
+	"$translate" "[0 0]"
+    "$center" "[0.5 0.5]"
+	
+	"$def_scale" "[0.5 0.5]"
+	
+	"$angle" "0"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+            "sineperiod" 3
+            "sinemin" 0.00001
+			"sinemax" 0.025
+			"timeoffset" 0
+            "resultVar" "$refractamount"
+		}	
+	}
+}

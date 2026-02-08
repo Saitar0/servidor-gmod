@@ -1,0 +1,35 @@
+Sat Feb  7 04:36:45 2026	Saitaro da negev (STEAM_0:0:505916339) has joined the game
+Sat Feb  7 04:36:45 2026	Saitaro (STEAM_0:0:505916339) spawned
+Sat Feb  7 04:37:03 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zbl_npc
+Sat Feb  7 04:37:07 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zbl_gasmask
+Sat Feb  7 04:38:35 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:38:42 2026	Saitaro (STEAM_0:0:505916339): /addbot
+Sat Feb  7 04:38:46 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:38:46 2026	Bot01 (BOT) has joined the game
+Sat Feb  7 04:38:46 2026	Bot01 (BOT) spawned
+Sat Feb  7 04:39:57 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:39:57 2026	Bot02 (BOT) has joined the game
+Sat Feb  7 04:39:57 2026	Bot02 (BOT) spawned
+Sat Feb  7 04:40:00 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:40:00 2026	Bot03 (BOT) has joined the game
+Sat Feb  7 04:40:00 2026	Bot03 (BOT) spawned
+Sat Feb  7 04:40:08 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:40:08 2026	Bot04 (BOT) has joined the game
+Sat Feb  7 04:40:08 2026	Bot04 (BOT) spawned
+Sat Feb  7 04:40:09 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:40:09 2026	Bot05 (BOT) has joined the game
+Sat Feb  7 04:40:09 2026	Bot05 (BOT) spawned
+Sat Feb  7 04:41:36 2026	Saitaro (STEAM_0:0:505916339) spawned SENT zbl_gasmask
+Sat Feb  7 04:42:17 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:42:21 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:42:23 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:42:39 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:43:32 2026	Bot05 was killed by Saitaro with a ls_sniper
+Sat Feb  7 04:43:33 2026	Bot05 (BOT) spawned
+Sat Feb  7 04:43:36 2026	Saitaro (STEAM_0:0:505916339): 
+Sat Feb  7 04:48:48 2026	Saitaro (STEAM_0:0:505916339) disconnected
+Sat Feb  7 04:48:48 2026	Bot01 (BOT) disconnected
+Sat Feb  7 04:48:48 2026	Bot02 (BOT) disconnected
+Sat Feb  7 04:48:48 2026	Bot03 (BOT) disconnected
+Sat Feb  7 04:48:48 2026	Bot04 (BOT) disconnected
+Sat Feb  7 04:48:48 2026	Bot05 (BOT) disconnected
