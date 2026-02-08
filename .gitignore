@@ -13,7 +13,6 @@
 *.vpk
 
 # Maps (podem ser muito grandes)
-garrysmod/maps/*.bsp
 garrysmod/maps/*.nav
 garrysmod/maps/*.ain
 garrysmod/maps/graphs/
